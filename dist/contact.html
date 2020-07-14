@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <title>Contact - Gcs</title>
+</head>
+
+<body>
+    <header id="header" class="heading">
+        <div class="header-inner">
+            <div class="logo">
+                <a href="./">
+                    <img src="img/gcs1.png" alt="">
+                </a>
+            </div>
+
+            <!-- Mobile NAV === -->
+            <div class="home-mobile-bar">
+                <div class="logo m-logo">
+                    <a href="./">
+                        <img src="img/gcs1.png" alt="">
+                    </a>
+                    <div class="close-f-nav" onClick="closeNav()">
+                        <svg viewBox="0 0 24 24">
+                            <path  d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z" />
+                        </svg>
+
+                    </div>
+                </div>
+                <div class="mobile-navigation">
+
+                    <div class="first-navigation">
+                        <div class="f-nav-link">
+                            <a href="services.html" class="activall">Our Services</a>
+                            <a href="#faqs3">FAQ/Branches</a>
+                            <a href="board.html">Board</a>
+                            <a href="#test-id">Testimonial</a>
+                            <a href="jobs.html" class="activing">Jobs</a>
+
+                        </div>
+
+
+                    </div>
+                    <div class="Second-navigation">
+                        <div class="each-middle-header-mobile">
+                            <div class="nav-svg-mobile">
+                                <svg viewBox="0 0 24 24">
+                                    <path d="M20 15.5C18.8 15.5 17.5 15.3 16.4 14.9H16.1C15.8 14.9 15.6 15 15.4 15.2L13.2 17.4C10.4 15.9 8 13.6 6.6 10.8L8.8 8.6C9.1 8.3 9.2 7.9 9 7.6C8.7 6.5 8.5 5.2 8.5 4C8.5 3.5 8 3 7.5 3H4C3.5 3 3 3.5 3 4C3 13.4 10.6 21 20 21C20.5 21 21 20.5 21 20V16.5C21 16 20.5 15.5 20 15.5M5 5H6.5C6.6 5.9 6.8 6.8 7 7.6L5.8 8.8C5.4 7.6 5.1 6.3 5 5M19 19C17.7 18.9 16.4 18.6 15.2 18.2L16.4 17C17.2 17.2 18.1 17.4 19 17.4V19M15 12H17A5 5 0 0 0 12 7V9A3 3 0 0 1 15 12M19 12H21C21 7 16.97 3 12 3V5C15.86 5 19 8.13 19 12Z" />
+                                </svg>
+                            </div>
+                            <div class="inner-each-middle">
+                                <span>Make Enquiries</span>
+                                <p><a href="tel:+234 (703) 84 564 989">+234 (703) 84 564 989</a></p>
+                            </div>
+                        </div>
+                        <div class="each-middle-header-mobile">
+                            <div class="nav-svg-mobile">
+                                <svg viewBox="0 0 24 24">
+                                <path d="M2 8V22H20V24H2C.895 24 0 23.11 0 22V8H2M23.03 6.29L14 .64L4.97 6.29C4.39 6.64 4 7.27 4 8V18C4 19.1 4.9 20 6 20H22C23.1 20 24 19.1 24 18V8C24 7.27 23.61 6.64 23.03 6.29M22 18H6V10L14 15L22 10V18M14 13L6 8L14 3L22 8L14 13Z" />
+                                </svg>
+                            </div>
+                            <div class="inner-each-middle inner-each-middle2">
+                                <span>Security Support</span>
+                                <p><a href="mailto: support@gcsnigltd.com">support@gcsnigltd.com</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="third-navigation">
+                        <a href="#faqs1">FAQ</a>
+                        <a href="jobs.html">Career</a>
+                        <a href="contact.html">Contact</a>
+                        <a href="about.html">About</a>
+                    </div>
+                    <div class="third-navigation">
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="last-nav">
+                <svg class="nav-icon" onclick="openNav()" viewBox="0 0 24 24">
+                    <path d="M3,13H15V11H3M3,6V8H21V6M3,18H9V16H3V18Z" />
+                </svg>
+
+
+
+                <a href="services.html" class="activall">Our Services</a>
+                <a href="#faqs3">FAQ/Branches</a>
+                <a href="board.html">Board</a>
+                <a href="about.html">About Us</a>
+                <a href="jobs.html" class="activing">Jobs</a>
+            </div>
+            <div class="mid-nav">
+                <div class="each-middle-header">
+                    <div class="nav-svg">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M20 15.5C18.8 15.5 17.5 15.3 16.4 14.9H16.1C15.8 14.9 15.6 15 15.4 15.2L13.2 17.4C10.4 15.9 8 13.6 6.6 10.8L8.8 8.6C9.1 8.3 9.2 7.9 9 7.6C8.7 6.5 8.5 5.2 8.5 4C8.5 3.5 8 3 7.5 3H4C3.5 3 3 3.5 3 4C3 13.4 10.6 21 20 21C20.5 21 21 20.5 21 20V16.5C21 16 20.5 15.5 20 15.5M5 5H6.5C6.6 5.9 6.8 6.8 7 7.6L5.8 8.8C5.4 7.6 5.1 6.3 5 5M19 19C17.7 18.9 16.4 18.6 15.2 18.2L16.4 17C17.2 17.2 18.1 17.4 19 17.4V19M15 12H17A5 5 0 0 0 12 7V9A3 3 0 0 1 15 12M19 12H21C21 7 16.97 3 12 3V5C15.86 5 19 8.13 19 12Z" />
+                        </svg>
+                    </div>
+                    <div class="inner-each-middle">
+                        <span>Make Enquiries</span>
+                        <p><a href="tel:+234 (703) 84 564 989">+234 (703) 84 564 989</a></p>
+                    </div>
+                </div>
+                <div class="each-middle-header">
+                    <div class="nav-svg">
+                        <svg viewBox="0 0 24 24">
+                    <path d="M2 8V22H20V24H2C.895 24 0 23.11 0 22V8H2M23.03 6.29L14 .64L4.97 6.29C4.39 6.64 4 7.27 4 8V18C4 19.1 4.9 20 6 20H22C23.1 20 24 19.1 24 18V8C24 7.27 23.61 6.64 23.03 6.29M22 18H6V10L14 15L22 10V18M14 13L6 8L14 3L22 8L14 13Z" />
+                </svg>
+                    </div>
+                    <div class="inner-each-middle inner-each-middle2">
+                        <span>Security Support</span>
+                        <p><a href="mailto: support@gcsnigltd.com">support@gcsnigltd.com</a></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+
+    <div class="qoute">
+        <h3>Contact</h3>
+        <h4>Ask a question</h4>
+        <h2>Get a quote</h2>
+        <div class="c-form">
+            <input type="text" id="c-name" placeholder="Full Name">
+            <input type="text" id="" placeholder="Email Address">
+            <input type="text" id="" placeholder="Phone number">
+            <textarea id="" cols="30" rows="10"></textarea>
+        </div>
+        <input type="submit" value="Send now">
+    </div>
+    <!-- FAq/Location  -->
+    <div class="faq-loc " id="faqs3">
+        <div class="faq-loc-header ">
+            <h4>What you should know</h4>
+            <h3>Faq / Locations</h3>
+        </div>
+        <div class="faq-loc-content ">
+            <div class="faq ">
+                <div class="sub-menu wow bounceIn " data-wow-duration="2s " data-wow-delay=".2s ">
+                    <div class="dropping dropping2 ">
+                        <div class="naving ">
+                            <span>Does GCS provide services to government org too?</span>
+                            <svg style="width:24px;height:24px " viewBox="0 0 24 24 ">
+                                <path fill="currentColor " d="M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z " />
+                            </svg>
+
+                        </div>
+                    </div>
+                    <div class="drops drops2 ">
+                        <span>
+                            <span>GCS has provided security guard services to several organizations, include and not limited to government organisations. We virtually serves every legit perimeters.</span>
+                        </span>
+                    </div>
+                </div>
+                <div class="sub-menu wow bounceInLeft " data-wow-duration="2s " data-wow-delay=".2s ">
+                    <div class="dropping ">
+                        <div class="naving ">
+                            <span>What if i have emergency, who can i call?</span>
+                            <svg style="width:24px;height:24px " viewBox="0 0 24 24 ">
+                                <path fill="currentColor " d="M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z " />
+                            </svg>
+
+                        </div>
+                    </div>
+                    <div class="drops ">
+                        <span>
+                            <span>In a case of emergency, even though it is always a rarity, but we always ensure everything is being put in place in other to deal with emergency. use our contact page for more info.</span>
+                        </span>
+                    </div>
+                </div>
+                <div class="sub-menu wow bounceIn " data-wow-duration="2s " data-wow-delay=".2s ">
+                    <div class="dropping ">
+                        <div class="naving ">
+                            <span>What if i have emergency, who can i call?</span>
+                            <svg style="width:24px;height:24px " viewBox="0 0 24 24 ">
+                                <path fill="currentColor " d="M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z " />
+                            </svg>
+
+                        </div>
+                    </div>
+                    <div class="drops ">
+                        <span>
+                            <span>In a case of emergency, even though it is always a rarity, but we always ensure everything is being put in place in other to deal with emergency. use our contact page for more info.</span>
+                        </span>
+                    </div>
+                </div>
+                <div class="sub-menu wow bounceInLeft " data-wow-duration="2s " data-wow-delay=".2s ">
+                    <div class="dropping dropping2 ">
+                        <div class="naving ">
+                            <span>Can GCS provide service to sensitive orgs like bank?</span>
+                            <svg style="width:24px;height:24px " viewBox="0 0 24 24 ">
+                                <path fill="currentColor " d="M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z " />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="drops ">
+                        <span>
+                            <span>Infact we do. At GCS we have professionals when it comes to security matters, both that are still in the force system and the retirees. So the answer is, we're sensitive and we can handle sensitive premises.</span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="loc ">
+                <div class="loc-img wow swing " data-wow-duration="2s " data-wow-delay=".2s ">
+                    <!-- <img src="img/map2.png " alt=" "> -->
+                    <img src="img/map9.png " alt=" ">
+                </div>
+                <div class="loc-list ">
+                    <div class="each-loc-list wow pulse " data-wow-duration="2s " data-wow-delay=".2s ">
+                        <svg viewBox="0 0 24 24 ">
+                            <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z " />
+                        </svg>
+                        <span>OYO</span>
+                    </div>
+                    <div class="each-loc-list wow pulse " data-wow-duration="2s " data-wow-delay=".2s ">
+                        <svg viewBox="0 0 24 24 ">
+                            <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z " />
+                        </svg>
+                        <span>Lagos</span>
+                    </div>
+                    <div class="each-loc-list wow pulse " data-wow-duration="2s " data-wow-delay=".2s ">
+                        <svg viewBox="0 0 24 24 ">
+                            <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z " />
+                        </svg>
+                        <span>Kogi</span>
+                    </div>
+                    <div class="each-loc-list wow slideInRight " data-wow-duration="2s " data-wow-delay=".2s ">
+                        <svg viewBox="0 0 24 24 ">
+                            <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z " />
+                        </svg>
+                        <span>Yola</span>
+                    </div>
+                    <div class="each-loc-list wow pulse " data-wow-duration="2s " data-wow-delay=".2s ">
+                        <svg viewBox="0 0 24 24 ">
+                            <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z " />
+                        </svg>
+                        <span>Osun</span>
+                    </div>
+                    <div class="each-loc-list wow pulse " data-wow-duration="2s " data-wow-delay=".2s ">
+                        <svg viewBox="0 0 24 24 ">
+                            <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z " />
+                        </svg>
+                        <span>kwara</span>
+                    </div>
+                    <div class="each-loc-list wow pulse " data-wow-duration="2s " data-wow-delay=".2s ">
+                        <svg viewBox="0 0 24 24 ">
+                            <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z " />
+                        </svg>
+                        <span>naija</span>
+                    </div>
+                    <div class="each-loc-list wow slideInRight " data-wow-duration="2s " data-wow-delay=".2s ">
+                        <svg viewBox="0 0 24 24 ">
+                            <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z " />
+                        </svg>
+                        <span>zaria</span>
+                    </div>
+                    <div class="each-loc-list wow pulse " data-wow-duration="2s " data-wow-delay=".2s ">
+                        <svg viewBox="0 0 24 24 ">
+                            <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z " />
+                        </svg>
+                        <span>abuja</span>
+                    </div>
+                    <div class="each-loc-list wow pulse " data-wow-duration="2s " data-wow-delay=".2s ">
+                        <svg viewBox="0 0 24 24 ">
+                            <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z " />
+                        </svg>
+                        <span>ekiti</span>
+                    </div>
+                    <div class="each-loc-list wow pulse " data-wow-duration="2s " data-wow-delay=".2s ">
+                        <svg viewBox="0 0 24 24 ">
+                            <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z " />
+                        </svg>
+                        <span>kaduna</span>
+                    </div>
+                    <div class="each-loc-list wow slideInRight " data-wow-duration="2s " data-wow-delay=".2s ">
+                        <svg viewBox="0 0 24 24 ">
+                            <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z " />
+                        </svg>
+                        <span>ondo</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Trusted -->
+    <div class="trusted ">
+        <div class="left-trusted ">
+            <Partnered>As <span class="comp ">Featured </span>& <span class="comp ">Partnered</span> with:</h4>
+        </div>
+        <div class="right-trusted ">
+            <div class="each-trusted wow bounceInUp " data-wow-duration="2s " data-wow-delay="0s ">
+                <img src="img/ibedc.png " alt=" ">
+            </div>
+            <div class="each-trusted wow bounceIn " data-wow-duration="2s " data-wow-delay="0s ">
+                <img src="img/geomart.png " alt=" ">
+            </div>
+            <div class="each-trusted wow wobble " data-wow-duration="2s " data-wow-delay="0s ">
+                <img src="img/olarge.png " alt=" ">
+            </div>
+
+            <div class="each-trusted wow bounceIn " data-wow-duration="2s " data-wow-delay="0s ">
+                <img src="img/ezsolution.png " alt=" ">
+            </div>
+            <div class="each-trusted wow slideInRight " data-wow-duration="2s " data-wow-delay="0s ">
+                <img src="img/lafayette.png " alt=" ">
+            </div>
+        </div>
+
+    </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="main-footer">
+            <div class="recent-news wow fadeIn " data-wow-duration="2s " data-wow-delay="0s ">
+                <h4>Recent Updates from GCS: must Read</h4>
+                <div class="each-recent-news">
+                    <a href="#">
+                        <h3>Recruitment Status</h3>
+                        <h4 class="rn-title">Current situation about recruitment system at Gcs...</h4>
+                        <h6 class="rn-date">July 20,2020</h6>
+                    </a>
+                </div>
+                <div class="each-recent-news">
+                    <h3>Covid19 Updates</h3>
+                    <h4 class="rn-title">Covid19 Updates: Due to the global pandemic around...</h4>
+                    <h6 class="rn-date">July 20,2020</h6>
+                </div>
+            </div>
+            <div class="site-address wow bounceIn " data-wow-duration="2s " data-wow-delay="0s ">
+                <div class="site-address-img">
+                    <h3>Guaranty chauffeur & Security LTD</h3>
+                </div>
+                <h4>Gcs security service is one of Nigeria largest security company. Our sole priority is client's satisfaction.</h4>
+                <div class="site-address-phone">
+                    <svg viewBox="0 0 24 24">
+            <path d="M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9A7,7 0 0,0 12,2Z" />
+        </svg>
+                    <span>15 Ososami, Ring Road Ibadan, NG</span>
+                </div>
+                <div class="site-address-phone">
+                    <svg viewBox="0 0 24 24">
+            <path d="M6.62,10.79C8.06,13.62 10.38,15.94 13.21,17.38L15.41,15.18C15.69,14.9 16.08,14.82 16.43,14.93C17.55,15.3 18.75,15.5 20,15.5A1,1 0 0,1 21,16.5V20A1,1 0 0,1 20,21A17,17 0 0,1 3,4A1,1 0 0,1 4,3H7.5A1,1 0 0,1 8.5,4C8.5,5.25 8.7,6.45 9.07,7.57C9.18,7.92 9.1,8.31 8.82,8.59L6.62,10.79Z" />
+        </svg>
+                    <span><a href="tel: +234 (703) 84 564 98">+234 (703) 84 564 98</a> </span>
+                </div>
+                <div class="site-address-email">
+                    <svg viewBox="0 0 24 24">
+            <path d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" />
+        </svg>
+                    <span><a href="mailto: gcscare@gcsnigltd.com">gcscare@gcsnigltd.com</a></span>
+                </div>
+            </div>
+            <div class="site-newsletter wow bounceIn " data-wow-duration="2s " data-wow-delay="0s ">
+                <h4>Map & Marker - Locate GCS Head Office</h4>
+                <iframe src="https://www.google.com/maps/embed?pb=!4v1592962679786!6m8!1m7!1szOQNGF9EajzwDQjGGnxX7w!2m2!1d7.360600824645347!2d3.871413526620553!3f103.62613832442605!4f3.661000768871048!5f1.6784048916999628" width="100%" height="65%" frameborder="0" style="border:0;"
+                    allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+            <div class="site-links">
+                <h4>Quick links</h4>
+                <div class="site-links-links">
+                    <a href="#">Faq</a>
+                    <a href="#">About US</a>
+                    <a href="#">contact</a>
+                    <a href="#">career</a>
+                    <a href="#">Boards</a>
+                </div>
+            </div>
+        </div>
+        <div class="last-footer">
+            <p>&copy; Copyright 2020. <a href="./">Gcs Nig ltd</a>. All rights reserved</p>
+            <div class="socials ">
+                <a href="# ">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M12 2.04C6.5 2.04 2 6.53 2 12.06C2 17.06 5.66 21.21 10.44 21.96V14.96H7.9V12.06H10.44V9.85C10.44 7.34 11.93 5.96 14.22 5.96C15.31 5.96 16.45 6.15 16.45 6.15V8.62H15.19C13.95 8.62 13.56 9.39 13.56 10.18V12.06H16.34L15.89 14.96H13.56V21.96A10 10 0 0 0 22 12.06C22 6.53 17.5 2.04 12 2.04Z" />
+                    </svg>
+                </a>
+                <a href="# ">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M22.46,6C21.69,6.35 20.86,6.58 20,6.69C20.88,6.16 21.56,5.32 21.88,4.31C21.05,4.81 20.13,5.16 19.16,5.36C18.37,4.5 17.26,4 16,4C13.65,4 11.73,5.92 11.73,8.29C11.73,8.63 11.77,8.96 11.84,9.27C8.28,9.09 5.11,7.38 3,4.79C2.63,5.42 2.42,6.16 2.42,6.94C2.42,8.43 3.17,9.75 4.33,10.5C3.62,10.5 2.96,10.3 2.38,10C2.38,10 2.38,10 2.38,10.03C2.38,12.11 3.86,13.85 5.82,14.24C5.46,14.34 5.08,14.39 4.69,14.39C4.42,14.39 4.15,14.36 3.89,14.31C4.43,16 6,17.26 7.89,17.29C6.43,18.45 4.58,19.13 2.56,19.13C2.22,19.13 1.88,19.11 1.54,19.07C3.44,20.29 5.7,21 8.12,21C16,21 20.33,14.46 20.33,8.79C20.33,8.6 20.33,8.42 20.32,8.23C21.16,7.63 21.88,6.87 22.46,6Z" />
+                    </svg>
+                </a>
+                <a href="# ">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M7.8,2H16.2C19.4,2 22,4.6 22,7.8V16.2A5.8,5.8 0 0,1 16.2,22H7.8C4.6,22 2,19.4 2,16.2V7.8A5.8,5.8 0 0,1 7.8,2M7.6,4A3.6,3.6 0 0,0 4,7.6V16.4C4,18.39 5.61,20 7.6,20H16.4A3.6,3.6 0 0,0 20,16.4V7.6C20,5.61 18.39,4 16.4,4H7.6M17.25,5.5A1.25,1.25 0 0,1 18.5,6.75A1.25,1.25 0 0,1 17.25,8A1.25,1.25 0 0,1 16,6.75A1.25,1.25 0 0,1 17.25,5.5M12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9Z" />
+                    </svg>
+                </a>
+                <a href="# ">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 15 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67M8.53 7.33C8.37 7.33 8.1 7.39 7.87 7.64C7.65 7.89 7 8.5 7 9.71C7 10.93 7.89 12.1 8 12.27C8.14 12.44 9.76 14.94 12.25 16C12.84 16.27 13.3 16.42 13.66 16.53C14.25 16.72 14.79 16.69 15.22 16.63C15.7 16.56 16.68 16.03 16.89 15.45C17.1 14.87 17.1 14.38 17.04 14.27C16.97 14.17 16.81 14.11 16.56 14C16.31 13.86 15.09 13.26 14.87 13.18C14.64 13.1 14.5 13.06 14.31 13.3C14.15 13.55 13.67 14.11 13.53 14.27C13.38 14.44 13.24 14.46 13 14.34C12.74 14.21 11.94 13.95 11 13.11C10.26 12.45 9.77 11.64 9.62 11.39C9.5 11.15 9.61 11 9.73 10.89C9.84 10.78 10 10.6 10.1 10.45C10.23 10.31 10.27 10.2 10.35 10.04C10.43 9.87 10.39 9.73 10.33 9.61C10.27 9.5 9.77 8.26 9.56 7.77C9.36 7.29 9.16 7.35 9 7.34C8.86 7.34 8.7 7.33 8.53 7.33Z" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+
+    <script>
+        // scroll To Top
+        window.onscroll = function() {
+            scrollFunction();
+        }
+
+        let scrollBtn = document.querySelector('.scrolls');
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                scrollBtn.style.display = 'block';
+                console.log(scrollBtn);
+            } else {
+                scrollBtn.style.display = 'none';
+            }
+        }
+        // scrollFunction();
+    </script>
+
+
+
+    <script src="jquery.min.js"></script>
+
+    <script src="wow.min.js"></script>
+    <script src="app.js"></script>
+
+
+</body>
+
+</html>
